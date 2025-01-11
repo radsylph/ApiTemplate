@@ -5,7 +5,6 @@ A simple [Node](https://nodejs.org/en) + [Express](https://expressjs.com) + [Typ
 - [Description](#description)
 - [Requirements](#requirements)
 - [How to Use](#how-to-use)
-- [API Examples](#api-examples)
 ## Description
 
 This is a REST API boilerplate with the basic structure I use to develop APIs using TypeScript, Node.js, and Express. It’s designed to simplify the setup process for new projects by providing a clean, scalable foundation.
@@ -31,3 +30,4 @@ PORT = 7338
 ```bash
 npm run dev
 ```
+5. Start creating your Routes,Controllers,Models,Etc..
