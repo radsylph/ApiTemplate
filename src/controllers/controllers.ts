@@ -3,7 +3,11 @@ import type { Request, Response } from "express";
 const Testmodule = new TestModule();
 
 const getMethod = (req: Request, res: Response) => {
-    Testmodule.testMethod(req, res);
+    Testmodule.getMethod(req, res);
 }
 
-export { getMethod };
+const postMethod = (req: Request, res: Response) => {
+    Testmodule.postMethod(req, res);
+}
+
+export { getMethod, postMethod };
